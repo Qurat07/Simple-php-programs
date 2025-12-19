@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bill Generator</title>
+</head>
+<body>
+  <h2>Enter Units</h2>
+  <form action="nested2.php" method="get">
+    Units: <input type="number" name="units" required>
+    <button type="submit">Generate Bill</button>
+  </form>
+
+  <h2>Mini Calculator </h2>
+
+    <form method="get" action="nested2.php">
+        <input type="number" name="num1" step="any" required><br><br>
+        <input type="number" name="num2" step="any" required><br><br>
+
+        <button type="submit" name="operator" value="+">+</button>
+        <button type="submit" name="operator" value="-">-</button>
+        <button type="submit" name="operator" value="*">*</button>
+        <button type="submit" name="operator" value="/">/</button>
+        <button type="submit" name="operator" value="%">%</button>
+    </form>
+</body>
+</html>
